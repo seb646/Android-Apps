@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="xyz.srodriguez.happybirthday.MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/cake"
+        android:scaleType="centerCrop"
+        android:id="@+id/img" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Happy Birthday!"
+        android:textSize="50dp"
+        android:padding="16dp"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_alignParentTop="true"
+        android:id="@+id/msg" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="From, Sebastian!"
+        android:layout_below="@id/msg"
+        android:textSize="30dp"
+        android:fontFamily="sans-serif-light"
+        android:textStyle="italic"
+        android:paddingLeft="16dp"
+        android:id="@+id/from" />
+</RelativeLayout>
